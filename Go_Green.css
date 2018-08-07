@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+
+html,body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+.cover_pic{
+    width: 100vw;
+    height: 100vh;
+    background: url("http://abouttechinfo.com/wp-content/uploads/2018/01/eco_parailustrar_copia.jpg") center center;
+    background-repeat: no-repeat;
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    background: #ffff;
+    font-weight: 600;
+    border: 1px solid green;
+    border-radius: 3px;
+    color: green; 
+}
+nav {
+    text-align: right;
+    margin-right: 20px;
+}
+
+nav button {
+    margin: 20px;
+    margin-left: 0;
+    
+}
+nav input {
+    margin: 20px;
+}
+.footor{
+    background-color:  dimgrey;
+    margin:90px;
+    padding:10px;
+    height:900px;
+    background-size:89% 89%;
+    background-image: url(http://www.gogreennitrr.org/Gogreen1.png) 
+    
+}
+
+.about{
+    margin: 90px;
+    padding: 10px;
+    background-color: darkgrey;
+    
+}
+.events{
+    margin: 90px;
+    padding: 10px;
+    background-color: rgba(179, 162, 14, 0.808);
+
+}
+.activites{
+    margin: 90px;
+    padding: 10px;
+    background-color: rgb(169, 169, 169);
+
+}
+.pukar{
+    margin: 90px;
+    padding: 10px;
+    background-color: olivedrab
+}
+#one,#twelve,#eleven,#seven,#six,#two,#three,#four,#five,#eight,#nine,#ten{
+    font-size: 30px
+}
+
+.fa-ul{
+    list-style: none;
+}
+.social{
+    display: inline-block;
+    margin: 10px;   
+}
+*{
+    font-family: sans-serif;
+}
+h1{
+    font-family: 'PT Serif', serif;
+}
+h2{
+    font-family: 'Sunflower', sans-serif;
+}
+
+.footor span {
+    font-family: 'Sunflower', sans-serif;
+    font-weight: bolder;
+}
+
+.pukar p {
+    text-indent: 10%;
+}
+.about p {
+    text-indent: 10%;
+}
