@@ -164,4 +164,8 @@ footer {
     .cover_input input {
         width: 95%;
     }
+    .bottom{
+     margin-bottom: 0;
+    right:0;
+    }
 }   
