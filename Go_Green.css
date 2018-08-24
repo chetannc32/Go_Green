@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300');
 
+*{
+    font-family: sans-serif;
+}
 html,body{
     margin:0;
     padding:0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .cover_pic{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background: url("http://abouttechinfo.com/wp-content/uploads/2018/01/eco_parailustrar_copia.jpg") center center;
     background-repeat: no-repeat;
@@ -16,56 +19,71 @@ html,body{
     width: 150px;
     height: 40px;
     background: #ffff;
-    font-weight: 600;
+    font-weight: bold;
     border: 1px solid green;
     border-radius: 3px;
     color: green; 
+    cursor: pointer;
+}
+.button:hover{
+    color:yellow;
+    background: black;
 }
 nav {
     text-align: right;
     margin-right: 20px;
 }
-
 nav button {
     margin: 20px;
     margin-left: 0;
     
 }
-nav input {
-    margin: 20px;
+.cover_input {
+    text-align: center;
 }
-.footor{
-    background-color:  dimgrey;
-    margin:90px;
-    padding:10px;
-    height:900px;
-    background-size:89% 89%;
-    background-image: url(http://www.gogreennitrr.org/Gogreen1.png) 
-    
+.cover_pic input {
+    margin-top: 40vh;
+    width:600px; 
+    height:40px; 
+    font-size:30px; 
+    border-radius: 3px;
 }
 
+.wrapper {
+    margin: 0 90px;
+}
+
+.wrapper>div {
+    margin-bottom: 50px;
+}
+
+.sticking{
+    background-color: #e77844;
+    top: 0;
+    z-index: 5;
+    position: sticky;
+    text-align: center;
+    font-size: 20px;
+}
 .about{
-    margin: 90px;
     padding: 10px;
     background-color: darkgrey;
-    
+    box-shadow: 6px 6px 9px 0  rgba(85, 87, 100, 0.808);
 }
 .events{
-    margin: 90px;
     padding: 10px;
     background-color: rgba(179, 162, 14, 0.808);
-
+    box-shadow:6px 6px 9px 0 rgba(85, 87, 100, 0.808);
 }
 .activites{
-    margin: 90px;
     padding: 10px;
     background-color: rgb(169, 169, 169);
-
+    box-shadow:6px 6px 9px 0 rgba(89, 85, 100, 0.808);
 }
 .pukar{
-    margin: 90px;
     padding: 10px;
-    background-color: olivedrab
+    background-color: olivedrab;
+    box-shadow:6px 6px 9px 0 rgba(85, 87, 100, 0.808);
 }
 #one,#twelve,#eleven,#seven,#six,#two,#three,#four,#five,#eight,#nine,#ten{
     font-size: 30px
@@ -76,11 +94,13 @@ nav input {
 }
 .social{
     display: inline-block;
-    margin: 10px;   
+    margin: 0 20px;   
+    color: black;
 }
-*{
-    font-family: sans-serif;
+.social:hover{
+    color:yellow;
 }
+
 h1{
     font-family: 'PT Serif', serif;
 }
@@ -99,3 +119,49 @@ h2{
 .about p {
     text-indent: 10%;
 }
+.bottom{
+    position:fixed;
+    right:30px;
+    bottom:0px;
+    background-color:#991747;
+    height:50px;
+    width:125px;
+    padding:0 0 10px 10px;
+    font-style:italic;
+    font-weight: 700px;
+}
+
+.footor{
+    box-shadow:6px 6px 9px 0 rgba(85, 87, 100, 0.808);
+    background-color:  dimgrey;
+    padding:20px;
+    background-size:89% 89%;
+    background-image: url(http://www.gogreennitrr.org/Gogreen1.png) 
+    
+}
+
+footer {
+    text-align: center;
+    background: #000;
+    color: white;
+    padding: 10px;
+}
+
+@media(max-width: 450px){
+    .wrapper {
+        margin: 0 10px;
+    }
+
+    nav {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    nav button {
+        margin: 10px;
+    }
+
+    .cover_input input {
+        width: 95%;
+    }
+}   
